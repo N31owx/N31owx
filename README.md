@@ -1,105 +1,63 @@
-<!-- ─────────────────────────────────────────────────────────────
-   Muted Cyberpunk GitHub README for: N31.owx
-   - Dark theme / low-saturation purple palette
-   - Pure Markdown + HTML only
-─────────────────────────────────────────────────────────────── -->
+<!-- ===== Muted Cyberpunk README (GitHub-safe) ===== -->
 
-<!-- ▶ Animated (scrolling) header -->
-<div align="center">
-  <svg viewBox="0 0 1200 90" width="100%" height="90" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="N31.owx">
-    <defs>
-      <linearGradient id="grad" x1="0" x2="1" y1="0" y2="0">
-        <stop offset="0%"  stop-color="#B69CFF"/>
-        <stop offset="50%" stop-color="#A98CFF"/>
-        <stop offset="100%" stop-color="#8C7CFF"/>
-      </linearGradient>
-      <filter id="softGlow">
-        <feGaussianBlur stdDeviation="2.5" result="blur"/>
-        <feMerge>
-          <feMergeNode in="blur"/>
-          <feMergeNode in="SourceGraphic"/>
-        </feMerge>
-      </filter>
-    </defs>
+<!-- 0) 헤더 배너: repo에 /assets/banner.gif 넣고 경로만 교체 -->
+<p align="center">
+  <img src="assets/banner.gif" alt="N31.owx banner" width="100%">
+</p>
 
-    <!-- moving text -->
-    <text x="-1000" y="58" font-family="Orbitron,Segoe UI,Roboto,Helvetica,Arial,sans-serif"
-          font-size="44" fill="url(#grad)" filter="url(#softGlow)" letter-spacing="3">
-      N31.owx
-      <animate attributeName="x" from="-1000" to="1200" dur="8s" repeatCount="indefinite"/>
-    </text>
-
-    <!-- subtle divider -->
-    <rect x="60" y="78" width="1080" height="2" fill="url(#grad)" opacity="0.45"/>
-  </svg>
-</div>
-
-<!-- ─────────────────────────────────────────────────────────────
-   Top section: left photo + right intro card
-─────────────────────────────────────────────────────────────── -->
+<!-- 1~2) 좌측 사진 + 우측 소개 (style 없음, table 레이아웃만) -->
 <table>
   <tr>
-    <!-- LEFT: avatar/photo (use your image URL) -->
     <td width="32%" valign="top">
-      <img src="YOUR_IMG_URL" alt="N31.owx photo"
-           style="border-radius:14px; display:block; max-width:100%;
-                  box-shadow:0 0 18px #a48fff55, 0 0 48px #6e56cf33;">
+      <!-- repo에 /assets/photo.jpg 넣고 경로 교체 -->
+      <img src="assets/photo.jpg" alt="N31.owx photo" width="100%">
     </td>
-
-    <!-- RIGHT: intro block -->
     <td width="68%" valign="top">
-      <div align="left">
+      
+### About me
+**Name** : N31.owx  
+**Age** : <!-- 입력 -->  
+**Nation** : <!-- 입력 -->  
+**Field** : Reversing · Crypto · Web Exploitation (특기: <!-- 입력 -->)  
+**Affiliation** : <!-- 입력 -->
 
-      <h3 style="margin-bottom:6px; color:#C5B6FF;">About me</h3>
+<!-- 통일 팔레트의 배지들 -->
+<p>
+  <a href="https://velog.io/@n3in3i00/posts">
+    <img alt="Velog" height="28"
+      src="https://img.shields.io/badge/Velog-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=velog&logoColor=ECE7FF">
+  </a>
+  <a href="mailto:gozldgkwlak7070@gmail.com">
+    <img alt="Gmail" height="28"
+      src="https://img.shields.io/badge/Gmail-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=gmail&logoColor=ECE7FF">
+  </a>
+  <a href="https://github.com/N31owx">
+    <img alt="GitHub" height="28"
+      src="https://img.shields.io/badge/GitHub-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=github&logoColor=ECE7FF">
+  </a>
+  <a href="https://www.notion.so/CRYPTO-29faa659de3c801686c3f2755d05c394?cookie_sync_completed=true">
+    <img alt="Notion" height="28"
+      src="https://img.shields.io/badge/Notion-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=notion&logoColor=ECE7FF">
+  </a>
+  <a href="https://discord.com/users/1311297725903671347">
+    <img alt="Discord" height="28"
+      src="https://img.shields.io/badge/Discord-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=discord&logoColor=ECE7FF">
+  </a>
+</p>
 
-      <blockquote>
-        <b>Name</b> : N31.owx<br/>
-        <b>Age</b>  : <!-- 입력 --> <br/>
-        <b>Nation</b> : <!-- 입력 --> <br/>
-        <b>Field</b> : Reversing · Crypto · Web Exploitation (특기: <!-- 입력 --> )<br/>
-        <b>Affiliation</b> : <!-- 소속 입력 -->
-      </blockquote>
+<!-- 주로 쓰는 언어(팔레트 통일) -->
+<p>
+  <img src="https://img.shields.io/badge/Python-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=python&logoColor=ECE7FF"/>
+  <img src="https://img.shields.io/badge/C-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=c&logoColor=ECE7FF"/>
+  <img src="https://img.shields.io/badge/Kali%20Linux-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=kalilinux&logoColor=ECE7FF"/>
+  <img src="https://img.shields.io/badge/Ubuntu-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=ubuntu&logoColor=ECE7FF"/>
+</p>
 
-      <!-- Contacts / pages (muted, unified color) -->
-      <p>
-        <a href="https://velog.io/@n3in3i00/posts">
-          <img alt="Velog" height="28"
-               src="https://img.shields.io/badge/Velog-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=velog&logoColor=ECE7FF">
-        </a>
-        <a href="mailto:gozldgkwlak7070@gmail.com">
-          <img alt="Gmail" height="28"
-               src="https://img.shields.io/badge/Gmail-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=gmail&logoColor=ECE7FF">
-        </a>
-        <a href="https://github.com/N31owx">
-          <img alt="GitHub" height="28"
-               src="https://img.shields.io/badge/GitHub-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=github&logoColor=ECE7FF">
-        </a>
-        <a href="https://www.notion.so/CRYPTO-29faa659de3c801686c3f2755d05c394?cookie_sync_completed=true">
-          <img alt="Notion" height="28"
-               src="https://img.shields.io/badge/Notion-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=notion&logoColor=ECE7FF">
-        </a>
-        <a href="https://discord.com/users/1311297725903671347">
-          <img alt="Discord" height="28"
-               src="https://img.shields.io/badge/Discord-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=discord&logoColor=ECE7FF">
-        </a>
-      </p>
-
-      <!-- Tech stack (muted unified color) -->
-      <p>
-        <img src="https://img.shields.io/badge/Python-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=python&logoColor=ECE7FF"/>
-        <img src="https://img.shields.io/badge/C-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=c&logoColor=ECE7FF"/>
-        <img src="https://img.shields.io/badge/Kali%20Linux-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=kalilinux&logoColor=ECE7FF"/>
-        <img src="https://img.shields.io/badge/Ubuntu-6E56CF?style=for-the-badge&labelColor=1a1a1a&logo=ubuntu&logoColor=ECE7FF"/>
-      </p>
-
-      </div>
     </td>
   </tr>
 </table>
 
-<!-- ─────────────────────────────────────────────────────────────
-   Featured / Focus
-─────────────────────────────────────────────────────────────── -->
+---
 
 #### 🚀 Featured
 | My Writing | Study Logs | Playground |
@@ -108,14 +66,6 @@
 
 ---
 
-#### 🧩 Current Focus
-- Reversing / Crypto / Web Exploitation  
-- Building PoCs · fuzzing small targets  
-- Clean & minimal cybercore vibes
-
-<!-- ─────────────────────────────────────────────────────────────
-   Stats (muted purple)
-─────────────────────────────────────────────────────────────── -->
 <div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=N31owx&show_icons=true&theme=midnight-purple&hide_border=true&bg_color=000000&title_color=BB9CF6&icon_color=BB9CF6&text_color=CFC9FF" width="49%" />
@@ -125,14 +75,14 @@
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=N31owx&layout=compact&theme=midnight-purple&hide_border=true&bg_color=000000&title_color=BB9CF6&text_color=CFC9FF" width="60%" />
 
-<br/>
+<p>
+  <img src="https://img.shields.io/badge/CTF-Player-6E56CF?style=flat-square&labelColor=1a1a1a">
+  <img src="https://img.shields.io/badge/Open--Source-Contributor-6E56CF?style=flat-square&labelColor=1a1a1a">
+  <img src="https://img.shields.io/badge/Night%20Coder-6E56CF?style=flat-square&labelColor=1a1a1a">
+</p>
 
-<img src="https://img.shields.io/badge/CTF-Player-6E56CF?style=flat-square&labelColor=1a1a1a"> 
-<img src="https://img.shields.io/badge/Open--Source-Contributor-6E56CF?style=flat-square&labelColor=1a1a1a">
-<img src="https://img.shields.io/badge/Night%20Coder-6E56CF?style=flat-square&labelColor=1a1a1a">
-
-</div>
-
-<p align="center">
+<p>
   <img src="https://komarev.com/ghpvc/?username=N31owx&style=flat-square&label=visits&color=6E56CF" alt="views"/>
 </p>
+
+</div>
