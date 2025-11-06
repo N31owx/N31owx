@@ -9,7 +9,7 @@
 
 <!-- Neon Ring Avatar (optional) -->
 <!-- Put your avatar url in src="" to get a neon ring frame -->
-<img src="https://avatars.githubusercontent.com/u/00000000?v=4" width="160" style="border-radius:50%; box-shadow:0 0 30px #ff00ff90, 0 0 60px #00fff790;" alt="N31.owx Avatar">
+<img src="https://avatars.githubusercontent.com/u/174981134?v=4" width="160" style="border-radius:50%; box-shadow:0 0 30px #ff00ff90, 0 0 60px #00fff790;" alt="N31.owx Avatar">
 
 <br/><br/>
 
